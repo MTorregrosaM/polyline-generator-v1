@@ -5,7 +5,7 @@
 </p>
 
 # PolylineGenerator
-This script generates a polyline code using a shapefile as source. The shapefile format is a geospatial vector data format for geographic information system (GIS) software, in our case, we use it to get the polygon's coordinates of a region or country. For example, we can use the polylines with *QlikMaps* (tool for *Qlik Sense*), which it's a reporting software for Data Vistualization.
+This script generates a polyline code from a shapefile. A shapefile is a geospatial vector data format commonly used in Geographic Information Systems (GIS) to store and represent geographic features. As a use case, it can be used to retrieve the polygon coordinates of a specific region or country. The generated polylines can then be consumed by tools such as QlikMaps, an extension for Qlik Sense, to visualize geographic data in reports and dashboards.
 
 It uses the code of Polyline Encoder from https://github.com/dyaaj (thanks!). 
 
@@ -20,7 +20,7 @@ The following collection of coordinates represent the polygon of a little town (
  Once we've passed it through the script, we get a polyline code:
         ``enjuF~ueVaSbYzOtUyc@hOqcDreCka@kZgHnm@hlAlq@nnAxgChXmFjD`fA`T`E~cAgr@ba@h@y@aSlh@sDpTwn@poAy]f\yh@tIgCkAkr@uRoaCaRoCcjAqjBi_Ax]qUec@cLodA_\d|A``
         
- This kind of format is accepted for many reporting tools, as we mentioned before, in our case we've used QlikMaps which read the polylines from a SQL table.
+ This kind of format is accepted for many reporting tools.
  
  ![polyline polygon](https://i0.wp.com/www.n4gash.com/wp-content/2017/11/alcorcon-shapefile.png?w=1290)
  
